@@ -5,11 +5,11 @@ if [[ ! $1 ]]; then
     echo "--------------------------------------------------------------------"
     exit 1;
 elif [ "local" = $1 ]; then
-  MULTITENANT_PATH=/path_to_multitenant
+  MULTITENANT_PATH=/var/www/wp-multitenant
 elif [ "dev" = $1 ]; then
-  MULTITENANT_PATH=/path_to_multitenant
+  MULTITENANT_PATH=/var/www/wp-multitenant
 elif [ "prod" = $1 ]; then
-  MULTITENANT_PATH=/path_to_multitenant
+  MULTITENANT_PATH=/var/www/wp-multitenant
 fi
 
 # Set current path
