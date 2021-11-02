@@ -80,8 +80,6 @@ fi
 # Create symlinks
 ln -s $MULTITENANT_PATH/config/wp-cli.yml .$FOLDER_PATH/wp-cli.yml
 ln -s $MULTITENANT_PATH/app/stable .$FOLDER_PATH/wp
-ln -s $MULTITENANT_PATH/assets/drop-ins/advanced-cache.php .$FOLDER_PATH/wp-content/advanced-cache.php
-ln -s $MULTITENANT_PATH/assets/drop-ins/object-cache.php .$FOLDER_PATH/wp-content/object-cache.php
 ln -s $MULTITENANT_PATH/assets/mu-plugins .$FOLDER_PATH/wp-content/mu-plugins
 ln -s $MULTITENANT_PATH/assets/plugins .$FOLDER_PATH/wp-content/plugins
 ln -s $MULTITENANT_PATH/assets/themes .$FOLDER_PATH/wp-content/themes
