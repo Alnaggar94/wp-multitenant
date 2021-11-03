@@ -91,10 +91,6 @@ if ('dev' === getenv('ENV_CURRENT_ENV')) {
 define('WP_CACHE', $wp_cache);
 
 
-define('WP_REDIS_DISABLED', $disable_redis);
-define('WP_REDIS_SELECTIVE_FLUSH', true);
-define('WP_REDIS_MAXTTL', 300);
-
 /**
  * Configure Security Settings
  *
