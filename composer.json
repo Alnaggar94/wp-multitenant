@@ -1,5 +1,5 @@
 {
-	"name": "Alnaggar94/wp-multitenant",
+	"name": "alnaggar94/wp-multitenant",
 	"description": "Composer setup for a WordPress Multi Tenant environment",
 	"minimum-stability": "dev",
 	"prefer-stable": true,
