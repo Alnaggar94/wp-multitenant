@@ -102,6 +102,7 @@ define('FORCE_SSL_ADMIN', true);
 define('FORCE_SSL_LOGIN', true);
 define('AUTOMATIC_UPDATER_DISABLED', true);
 define('DISALLOW_FILE_EDIT', true);
+define('DISALLOW_FILE_MODS', true);
 
 /**
  * Configure Editor Settings
