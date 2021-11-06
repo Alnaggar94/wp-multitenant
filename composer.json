@@ -8,7 +8,7 @@
 		"composer/installers": "1.*",
 		"johnpbloch/wordpress": "*",
 		"vlucas/phpdotenv": "3.4.0",
-		"alnaggar94/lscache_wp": "4.4.3",
+		"alnaggar94/litespeed-cache": "4.4.3",
 		"wpackagist-theme/twentytwentyone": "@stable",
 		"wpackagist-plugin/debug-bar": "*",
 		"wpackagist-plugin/query-monitor": "*"
@@ -20,7 +20,7 @@
 		},
 		{
 			"type": "vcs",
-			"url": "https://github.com/alnaggar94/lscache_wp"
+			"url": "https://github.com/alnaggar94/litespeed-cache"
 		}
 	],
 	"extra": {
